@@ -16,26 +16,26 @@ public class Main {
     System.out.println("Значение переменной 'dbl' с типом 'double' равно " + dbl);
     //Task 2
     System.out.println("Task 2");
-    long ln2=987678965549l;
+    long ln2=987678965549L;
     double dbl2=27.12;
     short sh2=569;
     int i2=-159;
     short sh3=27897;
     byte b2=67;
-    float fl2= 2.768f;
-    System.out.println(fl2);
-    System.out.println(ln);
-    System.out.println(sh2);
+    float fl2= 2.786f;
+    System.out.println(ln2);
     System.out.println(dbl2);
+    System.out.println(sh2);
     System.out.println(i2);
     System.out.println(sh3);
     System.out.println(b2);
+    System.out.println(fl2);
     // Task 3
-        var studentsLP =23;
-        var studentsAS = 27;
-        var studentsEA = 30;
-        var allSheetsPaper = 480;
-        var oneStudentSheets = allSheetsPaper/(studentsLP+studentsAS+studentsEA);
+        byte studentsLP =23;
+        byte studentsAS = 27;
+        byte studentsEA = 30;
+        short allSheetsPaper = 480;
+        int oneStudentSheets = allSheetsPaper/(studentsLP+studentsAS+studentsEA);
         System.out.println("Task 3");
         System.out.println("На каждого ученика расчитано " + oneStudentSheets + " листов бумаги");
 
