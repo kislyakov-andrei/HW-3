@@ -31,13 +31,13 @@ public class Main {
     System.out.println(b2);
     System.out.println(fl2);
     // Task 3
-        byte studentsLP =23;
-        byte studentsAS = 27;
-        byte studentsEA = 30;
-        short allSheetsPaper = 480;
-        int oneStudentSheets = allSheetsPaper/(studentsLP+studentsAS+studentsEA);
-        System.out.println("Task 3");
-        System.out.println("На каждого ученика расчитано " + oneStudentSheets + " листов бумаги");
+    byte studentsLP =23;
+    byte studentsAS = 27;
+    byte studentsEA = 30;
+    short allSheetsPaper = 480;
+    int oneStudentSheets = allSheetsPaper/(studentsLP+studentsAS+studentsEA);
+    System.out.println("Task 3");
+    System.out.println("На каждого ученика расчитано " + oneStudentSheets + " листов бумаги");
     // Task 4
     System.out.println("Task 4");
     byte efficiencyTwoMin = 16;
@@ -70,6 +70,7 @@ public class Main {
     int roomsWhite = roomWhitePot*rooms;
     int roomsBrown = roomBrownPot * rooms;
     System.out.println("В школе, где " + rooms + " классов, нужно " + roomsWhite+" банок белой краски и " + roomsBrown+" банок коричневой краски");
-
+    // Task 6
+   System.out.println("Task 6");
     }
  }
