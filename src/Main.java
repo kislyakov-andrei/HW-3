@@ -38,7 +38,38 @@ public class Main {
         int oneStudentSheets = allSheetsPaper/(studentsLP+studentsAS+studentsEA);
         System.out.println("Task 3");
         System.out.println("На каждого ученика расчитано " + oneStudentSheets + " листов бумаги");
-
+    // Task 4
+    System.out.println("Task 4");
+    byte efficiencyTwoMin = 16;
+    byte oneMin = 1;
+    int twentyMin = oneMin*20;
+    int efficiencyOneMin = efficiencyTwoMin/2;
+    int efficiencyTwentyMin = efficiencyOneMin * twentyMin;
+    System.out.println("За " + twentyMin + " минут(ы) машина произвела " + efficiencyTwentyMin + " штук бутылок");
+    byte day=1;
+    int threeDays = day*3;
+    int efficiencyDay = efficiencyOneMin * 60* 24;
+    System.out.println("За " + day + " сутки(ок) машина произвела " + efficiencyDay+ " штук бутылок");
+    int efficiencyThreeDays = efficiencyDay * threeDays;
+    System.out.println("За " + threeDays + " дня(ей) машина произвела " + efficiencyThreeDays + " штук бутылок");
+    int efficiencyMonth28 = efficiencyDay*28; // Февраль простого года
+    int efficiencyMonth29 = efficiencyDay*29; // Февраль високосного года
+    int efficiencyMonth30 = efficiencyDay*30; // Месяц 30 дней
+    int efficiencyMont31 = efficiencyDay * 31; // Месяц 31 день
+    System.out.println("За " + 1 + " месяц машина произвела " + efficiencyMonth28 + " штук буылок (февраль простого года)");
+    System.out.println("За " + 1 + " месяц машина произвела " +efficiencyMonth29 + " штук бутылок (февраль високосного года)");
+    System.out.println("За " + 1 + " месяц машина произвела " +efficiencyMonth30 + " штук бутылок (месяц 30 дней)");
+    System.out.println("За " + 1 + " месяц машина произвела " +efficiencyMont31 + " штук бутылок (месяц 31 день)" );
+    // Task 5
+    System.out.println("Task 5");
+    int repair =120;
+    int roomWhitePot = 2;
+    int roomBrownPot = 4;
+    int roomPaint = roomWhitePot+roomBrownPot;
+    int rooms=repair/roomPaint;
+    int roomsWhite = roomWhitePot*rooms;
+    int roomsBrown = roomBrownPot * rooms;
+    System.out.println("В школе, где " + rooms + " классов, нужно " + roomsWhite+" банок белой краски и " + roomsBrown+" банок коричневой краски");
 
     }
  }
